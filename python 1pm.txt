@@ -1,0 +1,503 @@
+docs
+
+https://docs.python.org/3/library/math.html
+
+
+
+x=input("Enter your name")
+print(x)
+
+
+from builtins import input
+from math import *
+
+
+
+print("Enter your name")
+
+name=input()
+
+print("My name is "+name)
+
+-----------------
+
+
+x=input("Enter your name")
+print(x)
+
+---------------
+
+from math import*
+
+#print(pow(2,3))
+
+#print(sqrt(4))
+
+print(factorial(100))
+
+print(floor(9.89))
+print(ceil(9.89))
+
+------------------
+
+
+print(type(km))
+
+----------------
+
+WAP to convert distance in kilometers into 
+meters, centimeters and milimeters.
+Where Distance in KM is input via Keyboard.
+
+sol 1:
+
+print("Enter the distance in kilometers")
+value=input()
+km=int (value)
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+print(km);
+print(m); 
+print(cm);
+print(mm);
+
+Sol 2:
+
+print("Enter the distance in kilometers")
+value=input()
+km=int (value)
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+print(km);
+print(m);
+print(cm);
+print(mm);
+
+op="Kilometers = {} Meters = {} Centimeters = {} Milimeters = {}"
+print(op.format(km,m,cm,mm))
+
+Sol 3:
+
+print("Enter the distance in kilometers")
+value=input()
+km=int (value)
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+print(km);
+print(m);
+print(cm);
+print(mm);
+
+op="Kilometers = {} Meters = {} Centimeters = {} Milimeters = {}"
+print(op.format(km,m,cm,mm))
+op="Kilometers = {:.2f} Meters = {:.3f} Centimeters = {:.28f} Milimeters = {:.16f}"
+print(op.format(km,m,cm,mm))
+
+
+----------------
+
+
+Nov 1 2021
+
+
+Ex 3 :
+
+name="Siddesh"
+age=20
+address="Kohinoor Satav nagar"
+
+op="My name is {} my age is {} and I live at {}"
+
+print(op.format(name,age,address))
+
+
+-----------------
+
+
+print("Enter the distance in kilometers")
+value=input()
+km=int (value)
+
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+
+op="Kilometers = {} Meters = {} Centimeters = {} Milimeters = {}"
+print(op.format(km,m,cm,mm))
+
+------------------------------
+
+print("Enter the distance in kilometers")
+value=input()
+km=int (value)
+
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+
+op="Kilometers = {} \nMeters = {} \nCentimeters = {} \nMilimeters = {}"
+print(op.format(km,m,cm,mm))
+
+
+-------------------------------------
+
+print("Enter the distance in kilometers")
+km=input()
+km=int (km)
+
+m=1000*km;
+cm=100*m;
+mm=10*cm;
+
+op="Kilometers = {} \nMeters = {} \nCentimeters = {} \nMilimeters = {}"
+print(op.format(km,m,cm,mm))
+
+-------------------------------------------
+
+Wap to convert temprature in degree celsius into fahrenheit.
+
+f=9/5*c+32
+
+
+Sol 1 :
+
+
+c=input("Enter the temprature in degree celsius")
+c=int(c)
+f=9/5*c+32
+
+op1="Tempratue in Desgree celsius = {}"
+op2="Tempratue in Fahrenheit = {}"
+
+print(op1.format(c))
+print(op2.format(f))
+
+
+Sol 2 :
+
+c=input("Enter the temprature in degree celsius")
+c=int(c)
+f=9/5*c+32
+
+op1="Tempratue in Desgree celsius = {}\n"
+op2="Tempratue in Fahrenheit = {}"
+
+op=op1+op2
+
+print(op.format(c,f))
+
+-------------------
+
+SOl 3:
+
+c=input("Enter the temprature in degree celsius")
+c=int(c)
+f=9/5*c+32
+op="Tempratue in Desgree celsius = {}\nTempratue in Fahrenheit = {}"
+print(op.format(c,f))
+--------------------------
+
+WAP to find area and perimeter of rectangle
+
+a=l*w
+p=2(l+w)
+
+Sol 1 :
+
+l=input("Enter the length of Rectangle")
+w=input("Enter the width of Rectangle")
+l=int(l)
+w=int(w)
+a=l*w
+p=2*(l+w)
+op="Area  = {}\nPerimeter = {}"
+print(op.format(a,p))
+
+
+sol 2:
+
+l=input("Enter the length of Rectangle")
+w=input("Enter the width of Rectangle")
+l=float(l)
+w=float(w)
+a=l*w
+p=2*(l+w)
+op="Area  = {}\nPerimeter = {}"
+print(op.format(a,p))
+
+
+sol 3:
+
+l=input("Enter the length of Rectangle")
+w=input("Enter the width of Rectangle")
+l=float(l)
+w=float(w)
+a=l*w
+p=2*(l+w)
+op="Area  = {:.2f}\nPerimeter = {:.4f}"
+print(op.format(a,p))
+
+---------------------------------------
+
+l=input("Enter the length of Rectangle")
+w=input("Enter the width of Rectangle")
+l=float(l)
+w=float(w)
+a=l*w
+p=2*(l+w)
+op="Area  = {:.28f}\nPerimeter = {:.40f}"
+print(op.format(a,p))
+
+-------------------------
+
+l=input("Enter the length of Rectangle")
+w=input("Enter the width of Rectangle")
+l=float(l)
+w=float(w)
+a=l*w
+p=2*(l+w)
+op="Area  = {:.28f}\nPerimeter = {:.40f}"
+
+print(op.format(a,p))
+
+print(op.format(math.floor(a),math.ceil(p)))
+
+-------------------------------
+ 
+chk=True
+if chk:
+    print("Hello")
+-----
+chk=False
+if chk:
+    print("Hello")
+else:print("Bye")
+
+----------------
+
+[] --- > list
+
+
+
+() --- > tuple
+
+
+{} --- > dict
+
+range(6) --- > range
+
+({"apple", "banana", "cherry"}) ----> frozenset
+
+x = b"Hello"	----> bytes
+x = True	----> bool
+x = bytearray(5)	----> bytearray
+x = memoryview(bytes(5))	---->  memoryview
+
+
+-------- slicing string -------------
+
+b = "Siddesh"
+print(b[2:5])
+print(b[:5])
+print(b[2:])
+print(b[-5:-2])
+
+
+b = "     Siddesh     "
+print(len(b.upper()))
+print(len(b.lower()))
+print(len(b.strip()))
+
+-------------------------------------
+If else --- Programs given and samples done 
+rest assigments :
+
+
+
+x=int(input("Enter x cordinate"))
+y=int(input("Enter y cordinate"))
+
+output1="point P({},{}) lies in "
+
+if x>0 and y>0:
+ print(output1.format(x,y)+"First Quadrant")
+if x < 0 and y > 0:
+ print(output1.format(x, y) + "Second Quadrant")
+if x<0 and y<0:
+ print(output1.format(x,y)+"Third Quadrant")
+if x > 0 and y < 0:
+ print(output1.format(x, y) + "Fourth Quadrant")
+ if x == 0 and y !=0:
+  print(output1.format(x, y) + "Y-Axis")
+if x != 0 and y == 0:
+ print(output1.format(x, y) + "X-Axis")
+if x ==0 and y == 0:
+ print(output1.format(x, y) + " is Origin")
+
+--------------------Iterations----------------------------
+Loops, Backward jump etc
+
+for loop :
+
+Ex 1:
+
+for x in range(1,10+1):
+ print(x)
+
+WAP to print first n +ve integers 
+
+1 2 3 4 5 ... n
+
+Ex 2:
+
+n=int(input("Enter the range of numbers :"))
+for x in range(1,n+1):
+ print(x)
+
+WAP to print first n -ve integers 
+
+ n=int(input("Enter the range of numbers :"))
+for x in range(1,n+1):
+ print(-x)
+
+WAP to print first n even integers 
+
+2 4 6 8 ... 2n
+
+n=int(input("Enter the range of numbers :"))
+for x in range(1,n+1):
+ print(2*x)
+
+
+WAP to print first n odd integers 
+
+1 3 5 9 ... 2n-1
+
+
+n=int(input("Enter the range of numbers :"))
+for x in range(1,n+1):
+ print(2*x-1)
+
+
+While :
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1 -----> i=i+1
+
+
+
+i = 10
+while i >=1:
+  print(i)
+  i -= 1
+
+-----break-------- 
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+-------------------
+
+continue :
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+---------Python Classes and Objects-----------
+Create a Class
+To create a class, use the keyword class:
+
+class MyClass:
+  x = 5
+
+print(MyClass)
+
+
+
+Create Object
+Now we can use the class named MyClass to create objects:
+
+class MyClass:
+  x = 5
+
+p1 = MyClass()
+print(p1.x)
+
+-------- Python Functions -------
+
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
+
+
+
+Ex 1 :
+
+
+def fiza():
+    print("This is the function")
+    print("How was your Bday Sameer ?")
+    print("Chup chaap party de dena ")
+
+
+
+fiza()
+
+
+
+Ex 2:
+
+
+def my_function(fname):
+  print("Welcome to Python "+fname)
+
+
+my_function("Siddesh")
+
+Ex 3 :
+
+
+def my_function1(*kids):
+  print("The youngest child is " + kids[1])
+
+
+my_function1("Sharad", "Fiza", "Sameer")
+
+
+Ex 4:
+
+Keyword Arguments
+You can also send arguments with the key = value syntax.
+
+This way the order of the arguments does not matter.
+
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
+
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+
+
+Ex 5 :
+
+Arbitrary Keyword Arguments, **kwargs
+
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
